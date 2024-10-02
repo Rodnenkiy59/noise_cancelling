@@ -1,0 +1,17 @@
+[General]
+ipc_version=4
+file=gowin_picorv32
+module=Gowin_PicoRV32_Top
+target_device=gw2a18c-011
+type=gowin_picorv32
+version=1.0
+
+[Config]
+Enable_Wishbone_GPIO=true
+Gpio_Data_Width=1
+DisableIO=false
+Enable_Simple_Uart=true
+LANG=0
+Synthesis_tool=GowinSynthesis
+createin_path=C:\\repositories\\noise_cancelling\\noise_cancelling\\src\\gowin_picorv32
+key_ip_device_id=gw2a18c-011
