@@ -2,7 +2,7 @@
 Copyright (C) 2014-2020 Gowin Semiconductor Technology Co.,Ltd.   
                     All rights reserved.
 --------------------------------------------------------------
-		Gowin_PicoRV32 MCU Hardware Reference Design
+		Gowin_PicoRV32 MCU Hardware Design
 --------------------------------------------------------------
 Frequency
 	50MHz
@@ -29,11 +29,7 @@ ITCM
 Reference Design
 	gowin_picorv32
 		Peripherals
-			Simple UART
 			WB UART
-			WB I2C Master
-			WB SPI Master
-			WB SPI Slave
 			WB GPIO
 			ADV SPI-Flash
 			OPEN WB INTERFACE
