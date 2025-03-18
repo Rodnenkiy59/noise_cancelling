@@ -2,11 +2,23 @@
  "Device" : "GW2A-18C",
  "Files" : [
   {
-   "Path" : "C:/repositories/noise_cancelling/noise_cancelling/src/top.sv",
+   "Path" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/ahbreg.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/repositories/noise_cancelling/noise_cancelling/src/gowin_picorv32/gowin_picorv32.v",
+   "Path" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/button.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/picorv32_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/wbreg.v",
    "Type" : "verilog"
   }
  ],
@@ -14,8 +26,8 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/repositories/noise_cancelling/noise_cancelling/impl/temp/rtl_parser.result",
- "Top" : "",
+ "ResultFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/impl/temp/rtl_parser.result",
+ "Top" : "Gowin_PicoRV32_template",
  "VerilogStd" : "sysv",
  "VhdlStd" : "vhdl_93"
 }

@@ -1,0 +1,92 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\ahbreg.v'
+Analyzing Verilog file 'C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\button.v'
+Analyzing Verilog file 'C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v'
+Analyzing Verilog file 'C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\picorv32_top.v'
+Analyzing Verilog file 'C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\wbreg.v'
+WARN  (EX3073) : Port 'ser_tx' remains unconnected for this instance("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\picorv32_top.v":189)
+Compiling module 'Gowin_PicoRV32_template'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\picorv32_top.v":4)
+Compiling module 'button'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\button.v":2)
+Compiling module 'Gowin_PicoRV32_Top'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42125)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":20753)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":21570)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":22341)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":23406)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":23748)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":28352)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":29180)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":30157)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":30884)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":31980)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":32257)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":35739)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":36882)
+Compiling module '**'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42124)
+WARN  (EX3670) : Actual bit length 4 differs from formal bit length 32 for port 'gpio_io'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\picorv32_top.v":149)
+Compiling module 'wbreg_demo'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\wbreg.v":2)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\wbreg.v":43)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\wbreg.v":49)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\wbreg.v":50)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\wbreg.v":51)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\wbreg.v":52)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\wbreg.v":60)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\wbreg.v":61)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\wbreg.v":62)
+Compiling module 'ahbreg_demo'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\ahbreg.v":2)
+WARN  (EX3670) : Actual bit length 3 differs from formal bit length 1 for port 'hsize'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\picorv32_top.v":212)
+WARN  (EX3670) : Actual bit length 3 differs from formal bit length 1 for port 'hburst'("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\picorv32_top.v":213)
+WARN  (EX2565) : Input 'ser_rx' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\picorv32_top.v":189)
+WARN  (EX2565) : Input 'wbspi_master_miso' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\picorv32_top.v":189)
+WARN  (EX2565) : Input 'wbspi_slave_mosi' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\picorv32_top.v":189)
+WARN  (EX2565) : Input 'wbspi_slave_ssn' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\picorv32_top.v":189)
+WARN  (EX2565) : Input 'wbspi_slave_sclk' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\picorv32_top.v":189)
+NOTE  (EX0101) : Current top module is "Gowin_PicoRV32_template"
+[5%] Running netlist conversion ...
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6275" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42729)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6276" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42735)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6277" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42741)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6278" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42747)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6279" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42753)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6280" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42759)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6281" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42765)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6282" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42771)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6283" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42777)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6284" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42783)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6285" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42789)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6286" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42795)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6287" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42801)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6288" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42807)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6289" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42813)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6290" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42819)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6291" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42825)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6292" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42831)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6293" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42837)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6294" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42843)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6295" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42849)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6296" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42855)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6297" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42861)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6298" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42867)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6299" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42873)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6300" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42879)
+WARN  (CV0023) : Sweep user defined iobuf instance "gpio_io_31_iobuf_6301" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42885)
+WARN  (CV0023) : Sweep user defined iobuf instance "wbi2c_sda_iobuf" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42896)
+WARN  (CV0023) : Sweep user defined iobuf instance "wbi2c_scl_iobuf" with dangling iopin("C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":42902)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\impl\gwsynthesis\gowin_picorv32.vg" completed
+[100%] Generate report file "C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\impl\gwsynthesis\gowin_picorv32_syn.rpt.html" completed
+GowinSynthesis finish

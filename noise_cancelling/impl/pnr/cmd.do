@@ -1,8 +1,8 @@
--d C:\repositories\noise_cancelling\noise_cancelling\impl\gwsynthesis\noise_cancelling.vg
+-d C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\impl\gwsynthesis\gowin_picorv32.vg
 -p GW2A-18C-PBGA256-8
 -pn GW2A-LV18PG256C8/I7
--cst C:\repositories\noise_cancelling\noise_cancelling\src\noise_cancelling.cst
--cfg C:\repositories\noise_cancelling\noise_cancelling\impl\pnr\device.cfg
+-cst C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\picorv32.cst
+-cfg C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\impl\pnr\device.cfg
 -bit
 -tr
 -ph

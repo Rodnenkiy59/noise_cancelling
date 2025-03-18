@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="Gowin_PicoRV32_template" Register="16" Lut="3" T_Register="5341(16)" T_Alu="685(0)" T_Lut="7559(3)" T_MULT36X36="1(0)" T_Bsram="32(0)" T_Ssram="16(0)">
+    <SubModule name="irq_20_button" Register="4" Lut="1" T_Register="4(4)" T_Lut="1(1)"/>
+    <SubModule name="irq_21_button" Register="4" Lut="1" T_Register="4(4)" T_Lut="1(1)"/>
+    <SubModule name="Gowin_PicoRV32_Top_inst" Register="5149" Alu="685" Lut="7460" MULT36X36="1" Bsram="32" Ssram="16" T_Register="5149(5149)" T_Alu="685(685)" T_Lut="7460(7460)" T_MULT36X36="1(1)" T_Bsram="32(32)" T_Ssram="16(16)"/>
+    <SubModule name="wbreg_demo_inst" Register="89" Lut="38" T_Register="89(89)" T_Lut="38(38)"/>
+    <SubModule name="ahbreg_demo_inst" Register="79" Lut="56" T_Register="79(79)" T_Lut="56(56)"/>
+</Module>

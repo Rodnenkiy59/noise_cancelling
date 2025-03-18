@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-18C" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
+    <FileList>
+        <File path="C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\ahbreg.v" type="verilog"/>
+        <File path="C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\button.v" type="verilog"/>
+        <File path="C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v" type="verilog"/>
+        <File path="C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\picorv32_top.v" type="verilog"/>
+        <File path="C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\src\wbreg.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\repositories\Gowin_Picorv32_V1.2\ref_design\FPGA_RefDesign\DK_START_GW2A18_V2.0\gowin_picorv32\impl\gwsynthesis\gowin_picorv32.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="Gowin_PicoRV32_template"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

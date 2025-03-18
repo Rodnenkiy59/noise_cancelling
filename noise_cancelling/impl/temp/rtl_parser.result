@@ -1,19 +1,165 @@
 [
  {
-  "InstFile" : "C:/repositories/noise_cancelling/noise_cancelling/src/top.sv",
-  "InstLine" : 1,
-  "InstName" : "top",
-  "ModuleFile" : "C:/repositories/noise_cancelling/noise_cancelling/src/top.sv",
-  "ModuleLine" : 1,
-  "ModuleName" : "top",
+  "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/picorv32_top.v",
+  "InstLine" : 4,
+  "InstName" : "Gowin_PicoRV32_template",
+  "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/picorv32_top.v",
+  "ModuleLine" : 4,
+  "ModuleName" : "Gowin_PicoRV32_template",
   "SubInsts" : [
    {
-    "InstFile" : "C:/repositories/noise_cancelling/noise_cancelling/src/top.sv",
-    "InstLine" : 35,
-    "InstName" : "your_instance_name",
-    "ModuleFile" : "C:/repositories/noise_cancelling/noise_cancelling/src/gowin_picorv32/gowin_picorv32.v",
-    "ModuleLine" : 21,
-    "ModuleName" : "Gowin_PicoRV32_Top"
+    "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/picorv32_top.v",
+    "InstLine" : 128,
+    "InstName" : "irq_20_button",
+    "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/button.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "button"
+   },
+   {
+    "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/picorv32_top.v",
+    "InstLine" : 135,
+    "InstName" : "irq_21_button",
+    "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/button.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "button"
+   },
+   {
+    "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/picorv32_top.v",
+    "InstLine" : 143,
+    "InstName" : "Gowin_PicoRV32_Top_inst",
+    "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+    "ModuleLine" : 42125,
+    "ModuleName" : "Gowin_PicoRV32_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 45743,
+      "InstName" : "core",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 22,
+      "ModuleName" : "picorv32"
+     },
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 45901,
+      "InstName" : "itcm",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 20754,
+      "ModuleName" : "picosoc_itcm"
+     },
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 45911,
+      "InstName" : "dtcm",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 21571,
+      "ModuleName" : "picosoc_dtcm"
+     },
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 45935,
+      "InstName" : "simpleuart",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 22342,
+      "ModuleName" : "simpleuart"
+     },
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 45972,
+      "InstName" : "wb",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 23407,
+      "ModuleName" : "wishbone_bus"
+     },
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 46012,
+      "InstName" : "wbuart_ins",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 23749,
+      "ModuleName" : "wbuart"
+     },
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 46032,
+      "InstName" : "wbgpio_ins",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 28353,
+      "ModuleName" : "wb_gpio"
+     },
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 46114,
+      "InstName" : "wbspi_master_0",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 29181,
+      "ModuleName" : "wbspi"
+     },
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 46149,
+      "InstName" : "wbspi_slave",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 30158,
+      "ModuleName" : "wbspi_0"
+     },
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 46183,
+      "InstName" : "wbi2c_ins",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 30885,
+      "ModuleName" : "i2c_master_top"
+     },
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 46201,
+      "InstName" : "ahb_interface",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 31981,
+      "ModuleName" : "ahb_bus"
+     },
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 46219,
+      "InstName" : "u_dm",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 32258,
+      "ModuleName" : "s_debug_module"
+     },
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 46299,
+      "InstName" : "wb_intercon",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 35740,
+      "ModuleName" : "wisbhone_intercon"
+     },
+     {
+      "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 46341,
+      "InstName" : "u_dualportspi",
+      "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 36883,
+      "ModuleName" : "advspi_top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/picorv32_top.v",
+    "InstLine" : 192,
+    "InstName" : "wbreg_demo_inst",
+    "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/wbreg.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "wbreg_demo"
+   },
+   {
+    "InstFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/picorv32_top.v",
+    "InstLine" : 206,
+    "InstName" : "ahbreg_demo_inst",
+    "ModuleFile" : "C:/repositories/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/ahbreg.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "ahbreg_demo"
    }
   ]
  }
